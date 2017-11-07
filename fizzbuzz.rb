@@ -4,7 +4,7 @@
 # 4. When I call that method and pass it a number divisible by 3 and 5, like the number 15 for instance, that method should return the string "FizzBuzz".
 # # 5. When I call that method and pass it a number not divisible by 3 or 5, like the number 4 for instance, that method should return nil.
 
-num = gets.chomp
+# num = gets.chomp
 
 def fizzbuzz(num)
   if (num % 3 == 0 && num % 5 == 0)
